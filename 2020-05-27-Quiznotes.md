@@ -20,6 +20,7 @@ public class InitClass{
 
 A: Code compiles without error and prints `6 40 0 30 5` when run.
 
+Remember: Java variables fit into three scope categories. They are global-scope (instance variables), class-level(static variables), and block-level.
 Keywords: instance variable shadowing, instance initializer, 
 
 ### Data Types: Assigning primitive long to string
