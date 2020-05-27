@@ -20,6 +20,37 @@ public class InitClass{
 
 A: Code compiles without error and prints `6 40 0 30 5` when run.
 
+#### Derivative Code
+
+```
+public class ShadowVariableDemo {
+
+	// Instance variable with name bruceWayne
+	String bruceWayne = "Bruce Wayne";
+	
+	public void callBruceWayne() {
+		System.out.println(bruceWayne);
+	}
+	
+	public void callBatmanAndBruce() {
+		// Shadow instance variable with name bruceWayne
+		String bruceWayne = "Batman";
+		System.out.println(bruceWayne);
+		
+		// Quick, a phone call for this Bruce Wayne. 
+		System.out.println(this.bruceWayne);
+	}
+
+
+	public static void main (String args[]) {
+	ShadowVariableDemo myShadowVariableDemo = new ShadowVariableDemo();
+
+	myShadowVariableDemo.callBruceWayne();
+	myShadowVariableDemo.callBatmanAndBruce();
+	}
+}
+```
+
 Remember: Java variables fit into three scope categories. They are global-scope (instance variables), class-level(static variables), and block-level.
 Keywords: instance variable shadowing, instance initializer, 
 
