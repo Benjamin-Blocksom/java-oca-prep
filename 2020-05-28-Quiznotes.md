@@ -9,7 +9,6 @@ interface I1 {
 
 Remember: 
 Classes do not `extend` interfaces; they `implement` interfaces.
---
 Interfaces do not `implement` anything; they can extend multiple `interfaces`.
 
 Keywords: `analyse`
