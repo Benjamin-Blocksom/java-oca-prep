@@ -7,7 +7,7 @@ interface I1 {
 }
 ```
 
-#### Remember: 
+Remember: 
 Classes do not `extend` interfaces; they `implement` interfaces.
 --
 Interfaces do not `implement` anything; they can extend multiple `interfaces`.
