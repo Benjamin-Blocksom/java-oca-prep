@@ -7,9 +7,8 @@ interface I1 {
 }
 ```
 
-#### Remember: 
+Remember: 
 Classes do not `extend` interfaces; they `implement` interfaces.
---
 Interfaces do not `implement` anything; they can extend multiple `interfaces`.
 
 Keywords: `analyse`
@@ -31,6 +30,30 @@ Answer: Nothing, it will not compile.
 
 
 Remember: You need a boolean in the `if` condition. Since the compiler sees x/y cannot produce a boolean it generates a compile time error.
+
+My program based on this question: 
+```java
+package demos.exceptions;
+
+public class BooleansTakeIfs{
+	  public static void main(String[] args){
+	     int x = 1;
+	     int y = 0;
+	     // next line is type mismatch, cannot convert to boolean.
+//	      if( x/y ) System.out.println("Good");
+	     
+	     try {
+	    	 for(int i = 1; i > -1; i--) {
+	    		 y = x/i;
+	    		 if(y==1) System.out.println("Good");
+	    		 }
+	     	} catch (ArithmeticException e) { 
+	    	 System.out.println("Cannot divide by zero");
+	    	 }
+	     }
+	  }
+```
+
 
 ### Inheritance: What will this code print when run?
 
