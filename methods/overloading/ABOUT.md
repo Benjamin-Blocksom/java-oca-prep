@@ -4,10 +4,10 @@ Overloading happens when methods with same name but different signatures and typ
 
 These are valid:
 
-public void foo(int bar) { }
-public void foo(short qux) {  }
-public boolean foo() { return true; }
-void foo(int quux, short qux) { }
-public void foo(short qux, int bar) throws Exception { }
+public void foo(int bar) { }  
+public void foo(short qux) {  }    
+public boolean foo() { return true; }  
+void foo(int quux, short qux) { }   
+public void foo(short qux, int bar) throws Exception { }  
 
 
