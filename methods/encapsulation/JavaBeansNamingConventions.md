@@ -1,4 +1,4 @@
-| Rule | Example | 
+| Rule------------------ | Example----------------------------------- | 
 |------------------------|--------------------------------------------|
 | Properties are private | `private int numApples;`|
 | Getter methods begin with `is` if the property is a boolean. | `public boolean isApple() { return apple; }` |
