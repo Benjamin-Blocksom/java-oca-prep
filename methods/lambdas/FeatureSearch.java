@@ -9,7 +9,10 @@ public class FeatureSearch {
 	cars.add(new Car("Lincoln", false, false));
 
 	print(cars, a -> a.isDiesel());
+	print(cars, (Car a) -> { return a.isDiesel(); });
+
 	print(cars, a -> ! a.isDiesel());
+	
 	print(cars, a -> a.isManual());	
 	print(cars, a -> !a.isManual());
 	}
