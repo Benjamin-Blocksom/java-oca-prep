@@ -7,5 +7,5 @@ A child class method must:
 
 Finally: 
 
-If method returns a value, it must be a covariant return type. 
-E.g. the same or a subclass of the method in the parent class.)
+If method returns a value, it must be a covariant return type.   
+(E.g. the same or a subclass of the method in the parent class.)
