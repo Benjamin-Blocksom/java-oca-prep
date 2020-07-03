@@ -8,6 +8,6 @@ Unless otherwise marked, ask yourself these three essential questions when looki
 * Will it throw an error at runtime?
 * What is its output when ran?
 
-Bibliography
+*Bibliography*
 
 Boyarsky, Jeanne and Scott Selikoff. 2014. "OCA: Oracle Certified Associate Java SE 8 Programmer." Sybex.
