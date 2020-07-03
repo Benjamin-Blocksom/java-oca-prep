@@ -1,0 +1,1 @@
+class NoHotWater extends RuntimeException { }

@@ -1,0 +1,1 @@
+class NoWater extends NoHotWater { }	

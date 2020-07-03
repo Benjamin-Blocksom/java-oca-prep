@@ -1,0 +1,1 @@
+class NoGrounds extends RuntimeException { }
