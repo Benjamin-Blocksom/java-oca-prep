@@ -12,5 +12,5 @@
 | Equal to/not equal to | `==`, `!=` |
 | Logical operators | `&`, `^`, `|` |
 | Short-circuit logical operators | `&&`, `||` |
-| Ternary operators | `boolean foo ? foo2 : foo3 |
-| Assignment operators | `=`, `+=`, `-=`, *=`, `/=`, `%=`, `&=`, `^=`, `!=`, `<<=`, `>>=`, `>>>=` |
+| Ternary operators | `boolean foo ? foo2 : foo3` |
+| Assignment operators | `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `&=`, `^=`, `!=`, `<<=`, `>>=`, `>>>=` |
