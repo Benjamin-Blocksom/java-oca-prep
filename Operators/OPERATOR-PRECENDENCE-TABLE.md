@@ -10,7 +10,7 @@
 | Shift operators | `<<`, `>>`, `>>>` | 
 | Relational operators | `<`, `>`, `<=`, `>=`, `instanceof` |
 | Equal to/not equal to | `==`, `!=` |
-| Logical operators | `&`, `^`, `|` |
-| Short-circuit logical operators | `&&`, `||` |
+| Logical operators | `&`, `^`, `\|` |
+| Short-circuit logical operators | `&&`, `\|\|` |
 | Ternary operators | `boolean foo ? foo2 : foo3` |
 | Assignment operators | `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `&=`, `^=`, `!=`, `<<=`, `>>=`, `>>>=` |
