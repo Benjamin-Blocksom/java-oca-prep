@@ -1,8 +1,9 @@
 public class ReturnTricks {
   public static void main(String[]args) {
+	  ReturnTricks nonum = new ReturnTricks();
 	  int num = 7;
 	  String word = "bird";
-	  num(num);
+	  num = nonum.num(num);
 	  word = word(word);
 	  System.out.println(num + word);
 }

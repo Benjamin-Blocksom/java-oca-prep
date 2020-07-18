@@ -4,7 +4,7 @@ public class Horse {
 
 	public Horse(int age) {
 		System.out.println("the cart");
-		this(age, "pony");
+		this(age, "the horse");
 	}
 
 	public Horse(int age, String breed) {
