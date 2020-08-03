@@ -17,6 +17,6 @@ public class PaperClip {
 	PaperClipA a = new PaperClipA();
 	PaperClipB b = new PaperClipB();
 	PaperClipC c = new PaperClipC(true);
-	PaperClip d = new PaperClipD(); // does not compile
+	PaperClipD d = new PaperClipD(); // does not compile
 	}
 }
