@@ -1,0 +1,13 @@
+
+
+public class TestClass {
+	public static boolean checkList(List list, Predicate<List> p) {
+		return p.test(list);
+	}
+
+	public static void main(String[]args) {
+		public b = checkList(new ArrayList(), a1 -> a1.isEmpty());
+		System.out.println(b);
+	}
+}
+
